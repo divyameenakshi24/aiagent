@@ -9,6 +9,7 @@ Considering Vacuum cleaner as agent and locations of 9 different rooms as enviro
 If the room is clean it shifts to the next adjacent room, if it is dirty it clean the room and continue its activity.
 
 ## PEAS DESCRIPTION
+![peas vaccum](https://user-images.githubusercontent.com/75235402/162268448-44bc305d-5302-4bf7-b2c4-e4511f62f18a.jpeg)
 
 
 ## DESIGN STEPS
