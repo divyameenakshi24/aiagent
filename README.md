@@ -9,7 +9,7 @@ Considering Vacuum cleaner as agent and locations of 9 different rooms as enviro
 If the room is clean it shifts to the next adjacent room, if it is dirty it clean the room and continue its activity.
 
 ## PEAS DESCRIPTION
-![output](./static/img/Agent_PEAS.PNG)
+
 
 ## DESIGN STEPS
 ### STEP 1:
@@ -277,8 +277,8 @@ if __name__ == "__main__":
         print('Agent Performance\n',agent.performance)
         time.sleep(5)
 ## OUTPUT
+![vaccum](https://user-images.githubusercontent.com/75235402/162268143-c30d1d67-553a-42ee-a2cc-31890089a415.JPG)
 
-![output](./static/img/AI1.PNG)
 
 
 ## RESULT
