@@ -41,7 +41,7 @@ The agent should detect the dirt and clean-if the location it is dirty,else it s
 The performance is measured with the dirt detection and cleaning.
 
 ## PROGRAM
-
+<br>
 import random
 import time
 class Thing:
@@ -89,7 +89,7 @@ def TableDrivenAgentProgram(table):
 
     return program
 
-le_T, le_A, le_B, le_C, le_D, le_P, le_Q, le_R, le_S = (1,1), (2,2), (1,2), (0,2), (0,1), (0,0), (1,0), (2,0), (2,1) 
+ le_T, le_A, le_B, le_C, le_D, le_P, le_Q, le_R, le_S = (1,1), (2,2), (1,2), (0,2), (0,1), (0,0), (1,0), (2,0), (2,1) 
 
 def TableDrivenVacuumAgent():
     """
@@ -117,7 +117,7 @@ def TableDrivenVacuumAgent():
     return Agent(TableDrivenAgentProgram(table))
 
 
-class Environment:
+ class Environment:
     """Abstract class representing an Environment. 'Real' Environment classes
     inherit from this. Your Environment will typically need to implement:
         percept:           Define the percept that an agent sees.
@@ -277,6 +277,8 @@ if __name__ == "__main__":
         print('Agent Location\n',agent.location)
         print('Agent Performance\n',agent.performance)
         time.sleep(5)
+        
+  <br>
 ## OUTPUT
 ![vaccum](https://user-images.githubusercontent.com/75235402/162268143-c30d1d67-553a-42ee-a2cc-31890089a415.JPG)
 
