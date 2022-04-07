@@ -14,7 +14,8 @@ If the room is clean it shifts to the next adjacent room, if it is dirty it clea
 
 ## DESIGN STEPS
 ### STEP 1:
-Identifying the input: location of agent, status of location.
+Identifying the input: Location of agent
+                       Status of location.
 
 ### STEP 2:
 Identifying the output: Action(NE,West1,West2,South1,South2,East1,East2,North,Initial)
@@ -22,19 +23,14 @@ Identifying the output: Action(NE,West1,West2,South1,South2,East1,East2,North,In
 ### STEP 3:
 
 Agent: Vacuum cleaner
-Performance Measure: 
-Moving locations and cleanliness
-Environment:
-Locations
-T,A,B,C,D,P,Q,R,S
-Actuators:
-Brushes and Vacuum Extractor
-Sensors:
-Camera, Dirt detection sensor
+Performance Measure: Moving locations and cleanliness
+Environment: Locations T,A,B,C,D,P,Q,R,S
+Actuators: Brushes and Vacuum Extractor
+Sensors: Camera, Dirt detection sensor
 
 ### STEP 4:
 
-The agent should detect the dirt and clean-if the location it is dirty,else it should move to the adjacent location.
+The agent should detect the dirt and clean if the location it is dirty,else it should move to the adjacent location.
 
 ### STEP 5:
 
