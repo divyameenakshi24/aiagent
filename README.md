@@ -1,4 +1,7 @@
-# Developing AI Agent with PEAS Description
+## EX NO:01
+## DATE:4.4.22
+# <p align="center">Developing AI Agent with PEAS Description
+
 
 ## AIM
 
@@ -38,6 +41,8 @@ The performance is measured with the dirt detection and cleaning.
 
 ## PROGRAM
 ```
+    Developed by : A.Divya Meenakshi
+    Register No : 212220230014
 import random
 import time
 class Thing:
